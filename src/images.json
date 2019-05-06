@@ -1,0 +1,62 @@
+[
+    {
+      "id": 1,
+      "name": "Florida Palms",
+      "image":"/images/Click1.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Denver morning art",
+      "image": "/images/Click2.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Aight in NOLA",
+      "image": "/images/Click3.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Plants overtaking",
+      "image": "/images/Click4.jpg"
+    },
+    {
+      "id": 5,
+      "name": "RV life",
+      "image": "/images/Click5.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Car on a pole",
+      "image": "/images/Click6.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Goose in the grass",
+      "image": "/images/Click7.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Ladies on the plains",
+      "image": "/images/Click8.jpg"
+    },
+    {
+      "id": 9,
+      "name": "Colorado grass",
+      "image": "/images/Click9.jpg"
+    },
+    {
+      "id": 10,
+      "name": "Garden in Alamosa",
+      "image": "/images/Click10.jpg"
+    },
+    {
+      "id": 11,
+      "name": "Friend in Cortez",
+      "image": "/images/Click11.jpg"
+    },
+    {
+      "id": 12,
+      "name": "Oregon coast beach",
+      "image": "/images/Click12.jpg"
+    }
+  ]
