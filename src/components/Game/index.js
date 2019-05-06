@@ -12,7 +12,7 @@ import pictures from "../../images.json";
 class Game extends Component {
 
     state = {
-      message: "Click on any picure to start",
+      message: "To start the game... click a picture!",
       modalMessage: "",
       pictures: pictures,
       score: 0,
@@ -28,7 +28,7 @@ class Game extends Component {
     let shuffledPictures = Array.from(pictures);
     shuffledPictures.sort(() => Math.random() - 0.5);
       if (alreadyClicked.includes(id)) {
-        this.showModal("Oh no! You've clicked this before! Game over.", "/images/you-lost-dog.png");
+        this.showModal("Oh no! You've clicked this before! Game over.");
         this.setState({
           message: "You Guessed Incorrectly!",
           // Set score to 0
@@ -47,7 +47,7 @@ class Game extends Component {
         if (newScore > topScore) {
           newTopScore = newScore;
           if (newTopScore === 12) {
-            this.showModal("You did it! YOU WON!", "assets/images/you-won-dog.png")
+            this.showModal("YOU DID IT! YOU WON!")
           }
         }
         

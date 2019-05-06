@@ -1,15 +1,14 @@
 .navbar {
-    background: tan;
-    min-height: 70px;
-    position: fixed;
-    width: 100%;
-    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
-    color: white;
-    font-size: calc(10px + (24 - 10) * (100vw - 320px) / (1200 - 400));
-    text-align: center;
-    z-index: 99;
-    white-space: nowrap;
-  }
+  background: rgb(95, 123, 160);
+  min-height: 40px;
+  position: fixed;
+  width: 100%;
+  color: white;
+  font-size: calc(10px + (24 - 10) * (100vw - 320px) / (1200 - 400));
+  text-align: center;
+  z-index: 99;
+  white-space: nowrap;
+}
 
 .navbar-grid {
     display: grid;
@@ -23,5 +22,4 @@
 .navbar a {
     text-decoration: none;
     color: white;
-    font-weight: 900;
   }
